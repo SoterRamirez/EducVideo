@@ -8,8 +8,9 @@ import Footer from '../components/Footer';
 import useInitialState from '../hooks/useIntialState';
 
 import '../assets/styles/App.scss';
-const API= 'http://localhost:3000/initalState';
-const App = () =>{
+const API= 'http://localhost:3000/initialState';
+
+const Home = () =>{
     const initialState = useInitialState(API);
     return  initialState.length === 0 ? <h1>Cargando...</h1> :(
         <div className="App">
@@ -43,4 +44,4 @@ const App = () =>{
         </div>
         );
 }
-export default App;
+export default Home;
