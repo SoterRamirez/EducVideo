@@ -1,5 +1,5 @@
 import React from 'react';
-import Home from '../containers/Home';
+import { Link } from 'react-router-dom';
 import '../assets/styles/components/NotFound.scss';
 
 const NotFound = () => (
@@ -9,7 +9,9 @@ const NotFound = () => (
             </div>
             <div className="central-body">
             <img className="image-404" src="http://salehriaz.com/404Page/img/404.svg" width="300px" />
-                <a href={Home} className="btn-go-home">IR A INICIO</a>
+            <Link to="/">
+                <a className="btn-go-home">IR A INICIO</a>
+            </Link>
             </div>
             <div className="objects">
             <img className="object_rocket" src="http://salehriaz.com/404Page/img/rocket.svg" width="40px" />
