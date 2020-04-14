@@ -1,5 +1,6 @@
 import React from 'react';
 import '../assets/styles/components/Login.scss';
+import '../assets/styles/App.scss';
 import googleIcon from '../assets/static/google-icon.png';
 import twitterIcon from '../assets/static/twitter-icon.png';
 
