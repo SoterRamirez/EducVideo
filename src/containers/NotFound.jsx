@@ -1,15 +1,11 @@
 import React from 'react';
 import Home from '../containers/Home';
-import logo from '../assets/static/logo-platzi-video-BW2.png';
 import '../assets/styles/components/NotFound.scss';
 
 const NotFound = () => (
     <section className="bg-purple">
         <div className="stars">
             <div className="custom-navbar">
-            <div className="brand-logo">
-                <img src={logo} width="250px" />
-            </div>
             </div>
             <div className="central-body">
             <img className="image-404" src="http://salehriaz.com/404Page/img/404.svg" width="300px" />
